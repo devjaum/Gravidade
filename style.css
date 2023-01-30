@@ -1,0 +1,22 @@
+body{
+    background-color: #282828;
+    color: aliceblue;
+}
+header,main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+canvas{
+    border: 0.1vh solid aliceblue;
+    margin: 5vh;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    margin: 10px
+}
