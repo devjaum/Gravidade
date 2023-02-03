@@ -1,6 +1,10 @@
 body{
     background-color: #282828;
     color: aliceblue;
+    -webkit-user-select:none;  
+    -moz-user-select:none;     
+    -ms-user-select:none;      
+    user-select:none;
 }
 header,main{
     display: flex;
@@ -10,6 +14,7 @@ header,main{
 canvas{
     border: 0.1vh solid aliceblue;
     margin: 5vh;
+
 }
 .input{
     display: flex;
